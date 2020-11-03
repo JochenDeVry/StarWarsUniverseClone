@@ -15,7 +15,7 @@ namespace StarWarsUniverse.Tests
         }
 
         [Test]
-        public void GetAllMovies()
+        public void GetAllMoviesShouldReturnEveryMovie()
         {
             var result = _repo.GetAllMovies();
             Assert.AreEqual(6, result.Count);
